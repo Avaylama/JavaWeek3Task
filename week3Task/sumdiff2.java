@@ -5,7 +5,7 @@ public class sumdiff2 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-        sc.close();
+        
 
         System.out.println("Enter first number :");
         int num1 = sc.nextInt();
@@ -30,6 +30,8 @@ public class sumdiff2 {
         } else {
             System.out.println("Cannot divide by zero.");
         }
+
+        sc.close();
 
         
 

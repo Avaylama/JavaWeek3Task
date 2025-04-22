@@ -5,7 +5,7 @@ public class divisible4 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-        sc.close();
+        
 
         System.out.println("Enter number : ");
         int a = sc.nextInt();
@@ -18,5 +18,9 @@ public class divisible4 {
         } else{
             System.out.println("Cannot be divided by both 5 and 11.");
         }
+
+        sc.close();
+
+        
     }
 }

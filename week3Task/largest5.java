@@ -4,7 +4,7 @@ import java.util.Scanner;
 public class largest5 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        sc.close();
+        
 
         System.out.println("Enter the first number :");
         int a = sc.nextInt();
@@ -27,5 +27,6 @@ public class largest5 {
         if (c > a){
             System.out.println(a + "is largest.");
         }
+        sc.close();
     }
 }

@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class marks9{
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        sc.close();
+        
 
         int totalSubjects = 5;
         int totalMarks = 0;
@@ -37,7 +37,7 @@ public class marks9{
         } else {
             System.out.println("Grade: F (Fail)");
         }
-
+        sc.close();
         
     }
 }

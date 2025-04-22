@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class Vowel8{
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        sc.close();
+        
 
         System.out.print("Enter a character: ");
         char ch = sc.next().charAt(0); 
@@ -20,6 +20,6 @@ public class Vowel8{
             System.out.println("Not a valid alphabet character.");
         }
 
-       
+        sc.close();
     }
 }

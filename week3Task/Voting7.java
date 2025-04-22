@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class Voting7{
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        sc.close();
+        
 
         System.out.println("Enter your age :");
         int age = sc.nextInt();
@@ -13,7 +13,7 @@ public class Voting7{
         } else {
             System.out.println("You are not eligible to vote yet.");
         }
-
+        sc.close();
         
     }
 }
